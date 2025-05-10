@@ -53,14 +53,12 @@ smtp:
   email: 3162475700@qq.com
   server: smtp.qq.com
   port: 587
-  use_tls: true
+  use_tls: false
 
 # 特殊RSS地址指定，可以置空但是不要删除！
 # 解释：用于指定特殊RSS地址，如B站专栏等不常见RSS地址后缀，可以添加多个
 #   name:               友链名称
 #   url:                指定的RSS地址
 specific_RSS:
-   - name: "阮一峰"
-     url: "http://feeds.feedburner.com/ruanyifeng"
   # - name: "無名小栈"
   #   url: "https://blog.imsyy.top/rss.xml"
